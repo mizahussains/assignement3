@@ -5,7 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@page import="dbsamp.dbsamp" %>
+<%@page import="dbSample.dbSample" %>
 <!DOCTYPE html>
 <html>
     <head>
@@ -13,6 +13,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1><%=dbsamp.getTable()%></h1>
+        <h1><%=dbSample.getTable()%></h1>
     </body>
 </html>
